@@ -19,7 +19,7 @@ toc_title: "\u041c\u0430\u043d\u0438\u043f\u0443\u043b\u044f\u0446\u0438\u0438\u
 ## ADD COLUMN {#alter_add-column}
 
 ``` sql
-ADD COLUMN [IF NOT EXISTS] name [type] [default_expr] [codec] [AFTER name_after | FIRST]
+ADD COLUMN [IF NOT EXISTS] name [type] [DEFAULT default_expr] [codec] [AFTER name_after | FIRST]
 ```
 
 Добавляет в таблицу новый столбец с именем `name`, типом `type`, [кодеком](../create/table.md#codecs) `codec` и выражением для умолчания `default_expr` (смотрите раздел [Значения по умолчанию](../create/index.md#create-default-values)).
